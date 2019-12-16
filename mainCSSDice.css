@@ -1,0 +1,248 @@
+*, *::before, *::after{
+box-sizing: border-box;
+font-family: Gotham Rounded, sans-serif;
+font-weight: normal;
+}
+body{
+    background: linear-gradient(to right, #00AAFF, #00FF6C);
+   
+}
+#topDiv{
+max-width: 480px;
+max-height: 320px;
+margin: 0 auto;
+background-color: rgba(255, 255, 255, .75);
+min-height: 50vh;
+}
+#topDivAward{
+max-width: 480px;
+max-height: 320px;
+margin: 0 auto;
+background-color: rgba(255, 255, 255, .75);
+min-height: 50vh;   
+}
+@media(max-width: 200px){
+        #topDiv{
+        max-width: 480vmin;
+        max-height: 400vmin;
+        }
+}
+#mainsDiv{
+ display: grid;
+justify-items: center;
+align-items: center;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: repeat(3, 1fr);
+
+}
+p{
+font-size: 25px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-align: center;
+
+}
+#labelId {
+    
+        grid-column: 1 / span 2;        
+        grid-row: 1/ 1;
+    }
+#mainsDiv2 {
+    margin: 0 auto;
+		grid-column: 1 / 1;
+		grid-row: 2 / 3;
+    }  
+ #mainsDiv3 {
+      margin: 0 auto;
+		grid-column: 2/ 2;
+		grid-row: 2 / 3;
+    }
+    /*fOR PAGE TWO*/
+#mainsDiv{
+max-width: 480px;
+max-height: 320px;
+margin: 0 auto;
+
+}
+#MainNumberOfPlayerStage{
+ display: grid;
+justify-items: center;
+align-items: center;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(3, 1fr);
+
+}
+#numberOfPlayerStageMin1{
+        grid-column: 1 / span 3;        
+        grid-row: 1/ 1;
+}
+#numberOfPlayerStageMin2{
+  
+  font-size: 20px;
+        grid-column: 1;        
+        grid-row: 2;
+}
+#numberOfPlayerStageMin3{
+         grid-column: 2;        
+        grid-row: 2;
+}
+#numberOfPlayerStageMin4{
+         grid-column: 3;        
+        grid-row: 2;
+}
+#numberOfPlayerStageMin5{
+        grid-column: 1 / span 3;        
+        grid-row: 3;
+}
+#imag{
+       margin-left: 30px;
+}
+#playAgain{
+        background-color: burlywood;
+        margin-left: 20px;
+       font-size: 16px;
+}
+#playAgain:hover{
+        cursor:pointer
+}
+.colors{
+  padding: 25px 55px;  
+  font-size: 16px;
+}
+@media(max-width:380px){
+.colors{
+  padding: 20px 20px;  
+  font-size: 10px;
+}
+}
+#MainChoosePlayer{
+ display: grid;
+justify-items: center;
+align-items: center;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: repeat(4, 1fr);
+
+
+}
+#playerL1{
+     grid-column: 1 / span 2;        
+      grid-row: 1/ 1; 
+}
+ #playerL2{
+ grid-column: 1 / span 3;        
+ grid-row: 2/ 2; 
+ }
+#playerG1{
+        grid-column: 1 / span 3;        
+        grid-row-start: 3;
+}
+#playerG2{
+        grid-column: 1 / span 3;        
+        grid-row-start: 4;
+}
+#red{
+        background-color: red;
+}
+
+#blue{
+        background-color: blue;
+}
+#yellow{
+        background-color: yellow;
+}
+#purple{
+        background-color: purple;
+}
+#green{
+        background-color: green;
+}
+#orange{
+        background-color: orange;
+}
+#MaindoublePlay{
+display: grid;
+justify-items: center;
+align-items: center;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(3, 1fr);
+    
+}
+#player1Div{
+     grid-column: 1/1;        
+      grid-row: 1/ 1; 
+}
+#player2Div{
+     grid-column: 2/2;        
+      grid-row: 1/ 1; 
+}
+#player3Div{
+     grid-column: 3/3;        
+      grid-row: 1/ 1; 
+}
+#playerIm1Div{
+      grid-column: 1/ 1;        
+      grid-row: 2/ 2;    
+}
+#playerIm2Div{
+      grid-column: 3/ 3;        
+      grid-row: 2/ 2;    
+}
+#player4Div{
+     grid-column: 1/ span 3;        
+      grid-row: 3/ 3; 
+}
+
+#MaindoubleplayResult{
+display: grid;
+justify-items: center;
+align-items: center;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(3, 1fr); 
+
+}
+
+#resultForPlayer{
+grid-column: 1/ 1;        
+grid-row: 1/ 1;
+}
+#resultForPlayer1Im{
+grid-column: 1/ 1;        
+grid-row: 2/ 2; 
+}
+#resultForPlayervs{
+grid-column: 2/ 2;        
+grid-row: 2/ 2;    
+}
+#resultForPlayer2{
+grid-column: 3/ 3;        
+grid-row: 1/ 1; 
+}
+#resultForPlayer2Im{
+ grid-column: 3/ 3;        
+ grid-row: 2/ 2;    
+}
+#questionForPlayers{
+grid-column: 1/ span 3;        
+grid-row: 3/ 3; 
+
+ 
+}
+#MainAward{
+display: grid;
+justify-items: center;
+align-items: center;
+grid-template-columns: repeat(1, 1fr);
+grid-template-rows: repeat(2, 1fr); 
+}
+input[type="image"]:hover{
+background-color: lightseagreen;
+}
+#red:hover, #blue:hover, #yellow:hover, #purple:hover, #green:hover, #orange:hover, #playAgain:hover{
+ box-shadow: 5px 5px grey;
+}
+#hide, #hide2{
+  background-color: rgba(255, 255, 255, .75);      
+}
+
+#dices{
+        padding: 20px;
+}

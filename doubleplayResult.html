@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result</title>
+    <script src="scripts.js"></script>
+    <link rel="stylesheet" type="text/css" href="mainCSSDice.css">
+</head>
+<body onload="resultPresent()">
+    <div id="topDiv">
+        <div id="MaindoubleplayResult">
+            <!--to hold the image of numbers you get -->
+            <div id="resultForPlayer1Im"></div>
+            <div id="resultForPlayer1">
+                <!--print the result you get-->
+                <p id="player1R"></p>
+            </div>
+
+            <div id="resultForPlayervs">
+                <p id="playerR"> VS</p>
+            </div>
+
+            <div id="resultForPlayer2Im"></div>
+            <div id="resultForPlayer2">
+                <p id="player3R"></p>
+            </div>
+            <!--ask if you want to play again or continue to result-->
+            <div id="questionForPlayers">
+                <input id="replay " type="image" class="profil" src="images/replay.png" 
+                alt="sumbit" width="60" height="60"
+                    onclick="window.location.href = 'choosePlayer.html';">
+                <button id="hide2"></button>
+                <input id="done " type="image" class="profil" src="images/success.png"
+                 alt="sumbit" width="60" height="60"
+                    onclick="window.location.href = 'award.html';">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

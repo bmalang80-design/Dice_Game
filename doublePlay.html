@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Double Player</title>
+    <script src="scripts.js"></script>
+    <link rel="stylesheet" type="text/css" href="mainCSSDice.css">
+</head>
+<body onload="popThem()" class="chnageColor">
+    <div id="topDiv">
+        <!--this page, all it does is to show two images with color you choose talling you if you are ready to play-->
+        <div id="MaindoublePlay">
+         
+
+           <div id="player1Div">
+            <p id="player1"></p>
+           </div>
+
+            <div id="player21Div">               
+                <p id="player2"> VS</p>
+            </div>
+
+            <div id="player3Div">
+               <p id="player3"></p>
+            </div>
+            <div id="playerIm1Div">
+               <img src="images/s1.png" alt="player logo" width="50" height="50">
+            </div>
+            <div id="playerIm2Div">
+                <img src="images/s2.png" alt="player logo" width="50" height="50">
+            </div>
+            <div id="player4Div">
+                <input type="image" id="player4"   class="profilePic" src="images/success.png " alt="sumbit" width="50"
+                    height="50"  onclick="window.location.href = 'doubleplayResult.html';">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

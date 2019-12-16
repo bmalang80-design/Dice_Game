@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choose A Roll</title>
+    <link rel="stylesheet" type="text/css" href="mainCSSDice.css">
+    <script src="scripts.js"></script>
+</head>
+<body  class="chnageColor">
+   <div id="topDiv">
+        <div id="MainNumberOfPlayerStage">
+            <div id="numberOfPlayerStageMin1">
+                <p id="numberOfPlayerStageP">How many rolls?</p>
+            </div>
+            <div id="numberOfPlayerStageMin2">
+                <input id="im1 " type="image" class="profilePic" src="images/minus.png"
+                 alt="sumbit" width="98" height="98" onclick="getRolls()">
+              
+            </div>
+            <div id="numberOfPlayerStageMin3">
+                <p id=count> <span id="numberOfPlayerStageMin32"> </span></p>
+            </div>
+            <div id="numberOfPlayerStageMin4">
+                <input id="im2 " type="image" class="profilePic" src="images/plus.png"
+                 alt="sumbit" width="98" height="98" onclick="getRolls()">
+               
+            </div>
+            <div id="numberOfPlayerStageMin5">
+                <input id="back " type="image" class="profilePic" src="images/back-button.png" alt="sumbit" width="60" height="90"
+                    onclick="window.location.href = 'index1.html';">
+                <button id="hide"></button>
+                    <input id="ok " type="image" class="profilePic" src="images/ok-button.png"
+                 alt="sumbit" width="98" height="98" 
+                 onclick="window.location.href = 'printResult.html';">
+            </div>
+        </div>
+        <p id="ids"> </p>
+   </div>
+</body>
+</html>
